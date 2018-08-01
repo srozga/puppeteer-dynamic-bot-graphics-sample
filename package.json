@@ -1,0 +1,29 @@
+{
+  "name": "puppeteer-dynamic-bot-graphics-sample",
+  "version": "1.0.0",
+  "description": "Generates a dynamic weather visualization for any city in the United States",
+  "scripts": {
+    "start": "node app.js",
+    "debug": "node --nolazy --inspect-brk=9229 app.js"
+  },
+  "author": "Szymon Rozga",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv-extended": "^1.0.4",
+    "moment": "^2.19.3",
+    "puppeteer": "^0.13.0",
+    "request": "^2.83.0",
+    "request-promise": "^4.2.2",
+    "restify": "^4.3.2"
+  },
+  "devDependencies": {
+    "eslint": "^4.10.0",
+    "eslint-config-google": "^0.9.1",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-node": "^5.2.1",
+    "eslint-plugin-promise": "^3.6.0",
+    "eslint-plugin-standard": "^3.0.1"
+  },
+  "main": "app.js"
+}
